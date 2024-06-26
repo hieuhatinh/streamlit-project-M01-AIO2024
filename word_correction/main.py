@@ -35,7 +35,7 @@ def levenshtein_distance(word_input, target):
 
 def main():
     vocabs = read_data(
-        'F:\\AIO2024\\AIO2024-Project\\module1\\streamlit\\data\\vocab.txt')
+        'data\\vocab.txt')
     vocabs = preprocessing(vocabs)
 
     st.title('Word Correction using Levenshtein Distance')
